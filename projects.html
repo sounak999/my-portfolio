@@ -15,42 +15,72 @@
 
 <body>
 
-    <section class="home">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                My
+                <span style="color: red;">
+                    Portfolio
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="about.html">Know Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">My Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">
-                    My
-                    <span style="color: red;">
-                        Portfolio
-                    </span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="about.html">Know Me</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="projects.html">My Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Me</a>
-                        </li>
-                    </ul>
+
+    <div class="container p-4">
+        <h1 class="alert alert-info text-center">
+            My Projects
+        </h1>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="imgs/web-dev.jpeg" style="width: 70%;" alt="web-dev">
+                        <h5 class="card-title">Web Development</h5>
+                        <p class="card-text" style="text-align: justify;">
+                            With the help of various technologies, I created this project based on Web Development. I
+                            have put a lot of hard work and determination to build
+                            this project from scratch.  Let's visit the github link and see the project overall.</p>
+                        <a href="https://github.com/sounak999/Developer-Swag" class="btn btn-primary">Github Link</a>
+                    </div>
                 </div>
             </div>
-        </nav>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="imgs/images.jfif" style="width: 70%;" alt="web-dev">
+                        <h5 class="card-title">Open Source Software Development</h5>
+                        <p class="card-text" style="text-align: justify;">
+                            This is an excellent project with a lot of technologies. Let's visit the github link and see the syllabus of  the awesome-competitive-programming overall.
+                        </p>
+                        <a href="https://github.com/sounak999/awesome-competitive-programming"
+                            class="btn btn-primary">Github Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-    </section>
-
-
-
+        
+    </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
